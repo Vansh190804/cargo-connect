@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "next build web",
+    "dev": "next dev web",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start web"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
@@ -54,6 +54,7 @@
     "react-day-picker": "9.8.0",
     "react-dom": "19.2.0",
     "react-hook-form": "^7.60.0",
+    "react-is": "^19.2.0",
     "react-resizable-panels": "^2.1.7",
     "recharts": "latest",
     "sonner": "^1.7.4",
